@@ -2,6 +2,11 @@
 
 Prototipo académico realizado con HTML5, Tailwind CSS v4 por CDN, Basecoat CSS y JavaScript vanilla con módulos ES. No utiliza frameworks ni backend. El pago es simulado y no genera una póliza real.
 
+## Enlaces
+
+- **Sitio publicado:** [Cubrí Seguros](https://cubriseguros-caire.netlify.app/)
+- **Repositorio:** [sofiacaire/cubri-seguros](https://github.com/sofiacaire/cubri-seguros)
+
 ## Cómo ejecutar
 
 1. Descargá o cloná el repositorio.
@@ -19,7 +24,18 @@ cubri-seguros/
 ├── capturas/
 │   ├── inicioDesktop.png
 │   ├── inicioMobile.jpeg
-│   └── ... (capturas desktop y mobile de cada pantalla)
+│   ├── cotizacionDesktop.png
+│   ├── cotizacionMobile.jpeg
+│   ├── planesDesktop.png
+│   ├── planesMobile.jpeg
+│   ├── datospersonalesDesktop.png
+│   ├── datospersonalesMobile.jpeg
+│   ├── pagoDesktop.png
+│   ├── pagoMobile.jpeg
+│   ├── exitoDesktop.png
+│   ├── exitoMobile.jpeg
+│   ├── errorDesktop.png
+│   └── errorMobile.jpeg
 ├── css/
 │   └── tokens.css
 ├── data/
@@ -119,7 +135,7 @@ Factores: menos de 1 año = 1,00; 1 a 2 años = 1,10; más de 2 años = 1,25.
 
 ## Publicación
 
-El proyecto está publicado en Netlify y conectado al repositorio de GitHub. Cada cambio que subas al repositorio se desplegará automáticamente.
+El proyecto está publicado en Netlify y conectado al repositorio de GitHub. Los cambios que subas al repositorio se despliegan automáticamente en el sitio.
 
 ## Alcance y decisiones
 
