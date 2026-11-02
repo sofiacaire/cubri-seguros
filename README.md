@@ -64,8 +64,6 @@ Factores: menos de 1 año = 1,00; 1 a 2 años = 1,10; más de 2 años = 1,25.
 
 ## Tarjetas de prueba
 
-**No ingreses datos de tarjetas reales.**
-
 - `4111 1111 1111 1111` → aprobado.
 - `4000 0000 0000 0002` → rechazado; permite probar la pantalla de error y el reintento.
 - Cualquier otro número de 16 dígitos válido según las reglas del ejercicio → aprobado.
@@ -74,14 +72,47 @@ Para las pruebas manuales, usá una fecha futura con formato `MM/AA` (por ejempl
 
 ## Capturas mobile y desktop
 
-Antes de entregar, ejecutá el sitio en el navegador y agregá capturas propias a una carpeta `capturas/`:
+### Inicio
 
-- `capturas/inicio-mobile.png` — viewport aproximado de 390 px.
-- `capturas/planes-desktop.png` — viewport aproximado de 1440 px.
-- `capturas/datos-mobile.png` — formulario de titular en mobile.
-- `capturas/exito-desktop.png` — pantalla de éxito en desktop.
+![Inicio en desktop](capturas/inicioDesktop.png)
 
-Las capturas no se incluyen porque deben tomarse de la versión ejecutada en tu propio navegador.
+![Inicio en mobile](capturas/inicioMobile.jpeg)
+
+### Cotización
+
+![Cotización en desktop](capturas/cotizacionDesktop.png)
+
+![Cotización en mobile](capturas/cotizacionMobile.jpeg)
+
+### Planes
+
+![Planes en desktop](capturas/planesDesktop.png)
+
+![Planes en mobile](capturas/planesMobile.jpeg)
+
+### Datos personales
+
+![Datos personales en desktop](capturas/datospersonalesDesktop.png)
+
+![Datos personales en mobile](capturas/datospersonalesMobile.jpeg)
+
+### Pago
+
+![Pago en desktop](capturas/pagoDesktop.png)
+
+![Pago en mobile](capturas/pagoMobile.jpeg)
+
+### Éxito
+
+![Éxito en desktop](capturas/exitoDesktop.png)
+
+![Éxito en mobile](capturas/exitoMobile.jpeg)
+
+### Error
+
+![Error en desktop](capturas/errorDesktop.png)
+
+![Error en mobile](capturas/errorMobile.jpeg)
 
 ## Publicación
 
