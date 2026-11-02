@@ -16,6 +16,10 @@ El proyecto utiliza CDN para Tailwind CSS, Basecoat CSS e Inter, por lo que requ
 ```text
 cubri-seguros/
 ├── index.html
+├── capturas/
+│   ├── inicioDesktop.png
+│   ├── inicioMobile.jpeg
+│   └── ... (capturas desktop y mobile de cada pantalla)
 ├── css/
 │   └── tokens.css
 ├── data/
@@ -68,7 +72,6 @@ Factores: menos de 1 año = 1,00; 1 a 2 años = 1,10; más de 2 años = 1,25.
 - `4000 0000 0000 0002` → rechazado; permite probar la pantalla de error y el reintento.
 - Cualquier otro número de 16 dígitos válido según las reglas del ejercicio → aprobado.
 
-Para las pruebas manuales, usá una fecha futura con formato `MM/AA` (por ejemplo `12/28` mientras siga vigente), un CVV de prueba de tres dígitos (por ejemplo `123`) y un titular ficticio.
 
 ## Capturas mobile y desktop
 
@@ -116,7 +119,7 @@ Para las pruebas manuales, usá una fecha futura con formato `MM/AA` (por ejempl
 
 ## Publicación
 
-Subí los archivos a un repositorio GitHub y habilitá GitHub Pages desde **Settings → Pages** (deploy desde la rama principal y carpeta raíz). También podés publicar la carpeta en Netlify. Una vez publicado, agregá aquí la URL del sitio.
+El proyecto está publicado en Netlify y conectado al repositorio de GitHub. Cada cambio que subas al repositorio se desplegará automáticamente.
 
 ## Alcance y decisiones
 
